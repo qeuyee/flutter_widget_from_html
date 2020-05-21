@@ -20,7 +20,11 @@ dependencies:
   html: ^0.14.0+3
   url_launcher: ^5.4.2
   video_player: ^0.10.8+1
-  webview_flutter: ^0.3.22
+  webview_flutter:
+    git:
+      url: https://github.com/qeuyee/plugins.git
+      ref: 4d45f5cd8c130f0c4211430f47eb48babf828c3b
+      path: packages/webview_flutter
 
 dev_dependencies:
   flutter_test:
